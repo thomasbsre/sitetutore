@@ -1,0 +1,335 @@
+.contenair  {
+	width: 1170px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.ourpro {
+	width: 1170px;
+	height: 500px;
+	margin: auto;
+}
+
+#divLeft {
+	/*background: red;*/
+	width: 45%;
+	/*height: 1000px;*/
+	float: left;
+}
+
+.txt-desc {
+	font-size: 20px;
+	margin: 50px 50px 50px 50px;
+}
+
+#divRight {
+	/*background: blue;*/
+	width: 54%;
+	/*height: 1000px;*/
+	top: 0;
+	float: left;
+	padding-left: 20px;
+	margin-left: 	10px;
+}
+
+.logo p{
+	 display: inline-block;
+}
+
+.logo2{
+	display: inline-block;
+	 padding-right: 10px;
+	 padding-top: 5px;
+}
+
+.Ttdesc {
+	padding-left: 40px;
+}
+.logo2 p {
+	 display: inline-block;
+}
+
+.description-pro {
+	font-size: 24px;
+	margin-bottom: 55px;
+}
+
+.imgau {
+	width: 94%;
+	float: right;
+}
+
+.pm-2 {
+	font-size: 25px;
+}
+
+.arec {
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.test1, .jres {
+	display: inline;
+}
+
+.jres {
+	margin-left: 6px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.tstr, .asure {
+	display: inline;
+}
+
+.tstr {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.asur {
+	padding-left: 2px;
+}
+.txtgr, .tentacles {
+	display: inline;
+}
+.txtgr {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.tentacles {
+	text-align: center;
+	height: 40px;
+	border-radius: 5px;
+}
+
+.glbtxtarea {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.txtarea {
+  /*background: red;*/
+  border: solid 1px black;
+  width: 94%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 50px;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.imgd {
+	float: right;
+	margin-left: 15px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	padding: 2px;
+}
+
+.infosavancementpro {
+  margin-left: 30px;
+  border: solid 1px black;
+  /*background: blue;*/
+  width: 20%;
+  /*height: 1000px;*/
+  padding-top: 10px;
+  height: auto;
+  float: left;
+  border-radius: 3px;
+  margin-bottom: 50px;
+}
+
+.imgdrt {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.soutenir {
+	width: 270px;
+	margin: 0 auto;
+}
+.imgarea {
+	float: left;
+	margin-left: 10px;
+	margin-right: 15px;
+	margin-bottom: 5px;
+	padding: 2px; 
+}
+
+.txt-label-infoauteur {
+	text-align:  center;
+	color: black;
+	font-family:  "Calibri";
+	font-size: 20px;
+}
+.descaut {
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.traitzebi{
+margin-left: 40px;
+margin-right: 40px;
+border: 1px RGB(219,161,160) solid;
+}
+
+.imgarea-2 {
+	float: right;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	border: solid black 1px;
+	padding: 2px; 
+}
+
+.file {
+	width: 500px;
+	height: 15px;
+}
+
+progress {
+    border: 0;
+    border-radius: 20px;
+}
+
+progress::-webkit-progress-bar {
+    border: 0;
+    border-radius: 20px;
+}
+
+progress::-webkit-progress-value {
+    border: 0;
+    border-radius: 20px;
+}
+
+progress::-moz-progress-bar {
+    border: 0;
+    border-radius: 20px;
+}
+
+.styled {
+	height: 42px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(97, 206, 112, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgba(97, 206, 110, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.contrepartie {
+	margin: auto;
+	border: 1px solid black;
+	border-radius: 3px;
+	width: auto;
+	height: auto;
+	margin-bottom: 2px;
+	padding-bottom: 10px;
+}
+
+.oneline {
+ width: 200px;
+ height: weight;
+ border: solid 1px #ccc;
+ display: inline-block;
+}
+ .lbl-contr {
+	text-align: center;
+	color: black;
+	font-family:  "Calibri";
+	font-size: 20px;
+}
+
+.lbl-txt {
+	padding-left: 15px;
+	font-size: 20px;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-bottom: 40px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  width: auto;
+  height: 40px;
+  padding: 5px 10px 5px 10px;
+  float: left;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #51aeed;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+.button1:hover {
+  background-color: #51aeed;
+  color: white;
+  transition: 0.5s;
+}
+
+.conteneure {
+	margin: auto;
+	width: 94%;
+	height: auto;
+	margin-bottom: 50px;
+}
+
+.mtn-contr {
+	margin-top:  25px;
+	margin-left: 15px;
+	font-size: 20px;
+}
+
+.sous-texte {
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 13px;
+}
+
+.ELLEESTGLOBAL {
+	width: 1170px;
+	margin: auto;
+}
+
+.GrandTitreTexte {
+	text-align: center;
+	font-size: 35px;
+}
+
+.GrandTitre {
+	margin-bottom: 40px;
+}
