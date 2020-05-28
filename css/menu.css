@@ -1,15 +1,4 @@
 
-.my-5 {
-margin-top: 7.3rem !important;	
-}
-
-.text-muted {
-    color: #ffffff !important;
-	font-size: 16px;
-}
-
-
-
 
 html {
     font-family: sans-serif;
@@ -150,6 +139,7 @@ body {
 	width: 250px;
 	height: 95px;
 	margin-top:5px;
+	border-radius:5px;
 
 }
 
@@ -567,7 +557,7 @@ text-decoration: none;
 
 .parallax {
 
-  background-image: url("../3.jpg");
+  background-image: url("../forestpara.jpg");
   min-height: 170px; 
   background-attachment: fixed;
   background-position: center center;
@@ -583,17 +573,27 @@ font-style: normal;
 font-weight: 300;
 text-align: center;
 color: #ffffff;
-font-size: 44px;
+font-size: 38px;
 z-index: 0;
 padding-top: 63px;
-letter-spacing: 1.8px;
-text-transform: uppercase;
+/* letter-spacing: 1.8px; */
+/* text-transform: uppercase; */
 }
 
 
 
 
-
+.nwletter input[type=email] {
+  background-color: white;
+  padding-left:10px;
+  width:80%;
+  border: 2px solid #ccc;
+  margin-top:15px;
+  border-radius: 4px;
+  resize: none;
+  box-sizing: border-box;
+  height:40px;
+}
 
 
 

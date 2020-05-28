@@ -1,10 +1,11 @@
 body {
   background-color: #EFEFEF;
+
 }
 .navbbar {
   overflow: hidden;
   background-color: white;
-  width: 1300px;
+  width: 95%;
   border-radius: 3px;
   margin: 0 auto;
   margin-top: 50px;
@@ -124,9 +125,11 @@ body {
   background-color:   #EFEFEF;
   border: none;
   border-radius:  5px;
-  width:  585px;
+  width:  97%;
   height: 40px;
   padding-left:  5px;
+ 
+  
 }
 
 .infos2 {
@@ -147,31 +150,40 @@ body {
   font-size: 15px;
 }
 
-.button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  transition-duration: 0.4s;
+.boutton {
+    background-color: rgb(24, 165, 214);
+    color: white;
+    /* padding: 14px 10px; */
+    border: 1px solid;
+    cursor: pointer;
+    width: 20%;
+	transition: background-color 150ms ease-in-out 0s, color 100ms ease-in 0s;
+	transition-property: background-color, color;
+    transition-duration: 150ms, 100ms;
+    transition-timing-function: ease-in-out, ease-in;
+    transition-delay: 0s, 0s;
+	/* display: block; */
+	/* margin : auto; */
+	margin-top:10px;
+	/* margin-bottom:10px; */
+	border-radius:5px;
+	display:inline;
+	margin-left:auto;
+	margin-right:auto;
+	height:3.75em;
   cursor: pointer;
+ 
 }
 
-.button1 {
-  float: left;
-  background-color: white; 
-  color: black; 
-  border: 2px solid #51aeed;
-  border-radius: 10px;
-}
+/* .boutton1 { */
+  /* float: left; */
+  /* background-color: white;  */
+  /* color: black;  */
+  /* border: 2px solid #51aeed; */
+  /* border-radius: 10px; */
+/* } */
 
-.button1:hover {
-  background-color: #51aeed;
-  color: white;
+.boutton:hover {
+    background-color: rgb(24, 110, 214);
+	color:white;
 }

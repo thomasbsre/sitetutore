@@ -29,7 +29,7 @@ if(isset($_POST['submitpost'])){
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-		
+		<
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -40,57 +40,61 @@ if(isset($_POST['submitpost'])){
 		<link rel="stylesheet" href="css/lancerprojet_suite.css" /> 
 		<link rel="stylesheet" href="css/menu.css" />
 		<title> Lancez votre projet </title>
-		
+		<link rel="icon" type="image/png" href="favicon2.png" />
+		<link rel="icon" href="./favicon2.png" type="image/png" sizes="16x16">
 
 	</head>
 	
 <header>
 	<div class ="menu">
-		
+		<!-- MENU DEROULANT -->
 				<input type="checkbox" id="check">
-            <label for="check">
-				<div class="hoverrr">
-                <i class="menub fas fa-bars" id="btn">  </i>
-				<p class="menuplace">MENU </p>
+				<label for="check">
+
+					<i class="menub fas fa-bars" id="btn"></i>
+					<i class="fas fa-times" id="cancel"></i>
+				</label>
+				<div class="sidebar">
+					<header>My App</header>
+						  <ul>
+							<li><a class="click" href="#">&nbsp&nbsp <i class="fas fa-search"></i>Recherche</a></li>
+							<li><a class="click" href="#">&nbsp&nbsp <i class="fas fa-info"></i></i>Qui sommes-nous ?</a></li>
+							<li><a class="click" href="commentcamarche.html">&nbsp&nbsp <i class="fas fa-stream"></i>Comment ça marche ?</a></li>
+							<li><a class="click" href="#">&nbsp&nbsp <i class="fas fa-check"></i>Réussir votre projet</a></li>
+							<li><a class="click" href="#">&nbsp&nbsp <i class="fas fa-plus"></i>Lancer votre projet</a></li>
+							<!-- <li><a class="click" href="#">&nbsp&nbsp <i class="fas fa-shopping-cart"></i>Boutique</a></li> -->
+						  </ul>
 				</div>
-                <i class="fas fa-times" id="cancel"></i>
-            </label>
-        <div class="sidebar">
-            <header>My App</header>
-                  <ul>
-                    <li><a class="click" href="#">&nbsp&nbsp <i class="fas fa-search"></i>Recherche</a></li>
-                    <li><a class="click" href="quisommenous.html">&nbsp&nbsp <i class="fas fa-info"></i></i>Qui sommes-nous ?</a></li>
-                    <li><a class="click" href="commentcamarche.html">&nbsp&nbsp <i class="fas fa-stream"></i>Comment ça marche ?</a></li>
-                    <li><a class="click" href="reussir.html">&nbsp&nbsp <i class="fas fa-check"></i>Réussir votre projet</a></li>
-                    <li><a class="click" href="lancerprojet.html">&nbsp&nbsp <i class="fas fa-plus"></i>Lancer votre projet</a></li>
-                    <li><a class="click" href="boutique.html">&nbsp&nbsp <i class="fas fa-shopping-cart"></i>Boutique</a></li>
-                  </ul>
-        </div>
-				
-		<ul class="tableau">
-			<li class="bouton"> <a class="ahref" href="boutique.html"> Boutique  </a> </li> 
-			<li class="boutonbleu" > Lancer votre projet</a>  </li>
-			<li	class="boutonimage"> <a  href="index.html"> <img class="finartlogo" src="imagemenu/finartlogo.png" alt="Logo du site" > </a> </li>
-			<li class="boutonvert"> Aider un projet</li>
-			<li class="bouton"> <a class="ahref" href="se_connecter.html"> Mon compte </a></li>	 
-		</ul>
-			<div class="hoverrr">
-			<p class="panierplace">PANIER </p>
-			<a href="panier.html">
-			<i class="menub fas fa-shopping-basket">  </i> 
-			</a>
-			</div>
+		<!-- Choisir le menu deroulante decale tout ou pas -->
+        <!-- <section></section>  -->
+
+		
+		<!--FIN  MENU DEROULANT -->
+				<ul class="tableau">
+					<li class="bouton"> <a  href="contact.html"> Contact</li> </a>
+					<li class="boutonbleu">Lancer votre projet</li>
+					<li	class="boutonimage"> <a  href="index.html"> <img class="finartlogo" src="imagemenu/finartlogo.png" alt="Logo du site" > </a>
+					<li class="boutonvert">Financer un projet</li>
+					<li class="bouton">Mon compte</li>
+					
+					<!-- <div class="inchallah"> -->
+					<!-- <form action=""> -->
+					<!-- <input type="search"> -->
+					<!-- <i class="fas fa-search"></i> -->
+					<!-- <!-- </form> -->		 
+				</ul>
+				<i class="menub fas fa-shopping-basket"></i>
 	</div>
 		
 </header>
 
 <body>
 
-<div class="parallax">
-		<div id="titrepara">
-		<h1> Décrivez votre projet </h1>
-		</div>
-</div>
+
+<br>
+<br>
+
+<!-- VOTRE CONTENUE LES FDPS -->
 
 
 													<div  class="main">
@@ -166,7 +170,7 @@ if(isset($_POST['submitpost'])){
 																					<!-- </label> -->
 																				<!-- </p>	 -->
 																				<p class="form-input" style="margin-left: 0;margin-top: 53px">
-																					<label for="images">Déposez des fichier images <i><span style="margin-left:100;text-transform:none">Des images de votre projet</span></i> <br>
+																					<label for="images">Déposer des fichier images <i><span style="margin-left:100;text-transform:none">Des images de votre projet</span></i> <br>
 																					<input type="file" name="file[]" multiple id="images"  style="width: 500px;margin-top: 7px;height: 35px; padding: 5" />	
 																					</label>
 																				</p>
@@ -215,7 +219,7 @@ if(isset($_POST['submitpost'])){
 																					<!-- </label>  -->
 																				<!-- </p> -->
 																				<p class="form-input" style="margin-left:0;margin-top:5px"> 
-																				<label for="description"> Décrivez les récompenses pour vos "contributeurs"<br>
+																				<label for="description"> Décriver les récompenses pour vos "contributeurs"<br>
 																					<textarea class="trucadecrire" rows="10" cols="10" style="border: 1px solid #dba1a0;height: 65px;margin-top: 7px;" placeholder="Écrivez ici"></textarea>
 																					</label> 
 																				</p> 
@@ -279,7 +283,7 @@ console.log(document.getElementById("images"));
 </body>
 
 <!-- Site footer -->
- <footer class="site-footer">
+    <footer class="site-footer">
       <div class="container">
         <div class="row">
           <!-- <div class="col-sm-12 col-md-6"> -->
@@ -291,15 +295,16 @@ console.log(document.getElementById("images"));
             <ul class="footer-links">
             Finart-culture est une plateforme de promotion culturelle et artistique. Une boutique en ligne est disponible.
             </ul>
+			<!-- <ul>Administrateur</ul> -->
           </div>
 
           <div class="col-xs-6 col-md-3">
-            <h6> Mentions légales</h6>
+            <h6> Informations </h6>
             <ul class="footer-links">
               <li><a href="http://scanfcode.com/category/c-language/"> Mentions légales</a></li>
 			  <li><a class="ahref" href="contact.html"> Contact  </a></li>
               <li><a href="http://scanfcode.com/category/front-end-development/">Conditions générales de vente</a></li>
-              <li><a href="http://scanfcode.com/category/back-end-development/">Politique de confidentialité</a></li>
+              <li><a href="http://scanfcode.com/contact/">Politique de confidentialité</a></li>
 
             </ul>
           </div>
@@ -308,17 +313,18 @@ console.log(document.getElementById("images"));
             <h6>Newsletter</h6>
             <ul class="footer-links">
               <li><a href="http://scanfcode.com/about/">Abonnez-vous à notre Newsletter</a></li>
-              <li><a href="http://scanfcode.com/contact/">Politique de confidentialité</a></li>
+			  <div class="nwletter"><input class="" type="email" placeholder="Adresse e-mail" name="e-mail" required></div>
+              
 
             </ul>
           </div>
 		   <div class="col-xs-6 col-md-3">
             
-          
-              <li><a  href="index.html"> <img class="finartlogo" src="imagemenu/finartlogo.png" alt="Logo du site" > </a></li>
+          <br>
+              <a  href="index.html"> <img class="finartlogo" src="imagemenu/finartlogo.png" alt="Logo du site" > </a>
               
 
-            </ul>
+            
           </div>
 		  
         </div>
@@ -342,7 +348,7 @@ console.log(document.getElementById("images"));
           </div>
         </div>
       </div>
-</footer>
+	</footer>
   <!-- Site footer -->
 
 

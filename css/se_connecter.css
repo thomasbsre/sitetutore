@@ -68,11 +68,13 @@ input[type=text], input[type=password] {
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+	border-radius:5px;
+	
 }
 
 /* Set a style for all buttons */
 input[type=submit] {
-    background-color: rgb(24, 165, 214);
+    background-color: #51aeed;
     color: white;
     padding: 14px 20px;
     border: 1px solid;
@@ -90,7 +92,7 @@ input[type=submit] {
 	border-radius:5px;
 }
 input[type=submit]:hover {
-    background-color: rgb(24, 110, 214);
+    opacity:75%;
 	color:white;
 }
 
@@ -114,7 +116,7 @@ form a{
 }
 
 #sc{
-	color:blue;
+	color:#51aeed;
 	text-decoration:underline;
 }
 
@@ -184,7 +186,8 @@ input[type=checkbox] {
   height: 0;
   width: 0;
   font-size:12px;
-  margin-left:5px;
+  margin-left: -115px;
+  margin-top: -0.9px
  
 }
 

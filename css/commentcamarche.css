@@ -95,8 +95,96 @@ margin-top:20px;
 	
 }
 
+/* REUSSIR */
+
+.reussir {
+margin-top: 50px;
+margin-bottom:50px;
+}
+
+.does-box .panel-body {
+    padding: 20px 20px;
+    background: #FFF;
+}
 
 
+ h2 {
+    color: #333;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 56px;
+    margin-bottom: 40px;
+	margin-left:80px;
+}
 
+ p {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 45px;
+	margin-top:10px;
+}
 
+.row {
+	
+display: flex;
+
+}
+
+.white{
+color:white;	
+text-align:center;
+}
+.un {
+padding:35px 20px;
+list-style:none;	
+/* background-color:#ff5632; */
+background-image:url("../3.jpg");
+background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+border-radius:10px;
+margin-top:25px;
+
+}	
+
+.de {
+padding:35px 20px;
+list-style:none;		
+/* background-color: #fefc53; */
+background-image:url("../4.jpg");
+background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+border-radius:10px;
+margin-top:25px;
+}
+.tr {
+	padding:35px 20px;
+list-style:none;	
+/* background-color: #51aeed; */
+background-image:url("../9.jpg");
+background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+border-radius:10px;
+margin-top:25px;
+}
+
+.qu {
+	padding:30px 20px;
+list-style:none;	
+/* background-color: #61ce70; */
+background-image:url("../forestpara.jpg");
+background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+border-radius:10px;
+margin-top:25px;
+}
+.titre {
+	height:auto;
+	margin-top:20px;
+}
 

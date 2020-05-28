@@ -340,3 +340,18 @@ input.error {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+@media screen and (max-width: 1500px) and (min-width: 500px) {
+	.titleMsg h2 {
+	  line-height: 1.2;
+	  margin: 0;
+	  padding: 0;
+	  font-weight: 900;
+	  color: #fff;
+	  font-family: 'Poppins';
+	  font-size: 26px;
+	  text-transform: uppercase;
+	  margin-bottom: 10px; 
+	  margin-left:0px;
+	}
+}

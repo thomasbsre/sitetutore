@@ -1,8 +1,7 @@
-.contenair  {
-	width: 1170px;
-	margin-top: 50px;
-	margin-bottom: 50px;
-}
+/* .pageprojet { */
+/* width:1170px; */
+/* margin:auto;	 */
+/* } */
 
 .ourpro {
 	width: 1170px;
@@ -12,51 +11,83 @@
 
 #divLeft {
 	/*background: red;*/
-	width: 45%;
+	width: 44%;
 	/*height: 1000px;*/
 	float: left;
+}
+
+.description p{
+	font-size:16px;
+}
+
+.divRight{
+	/* margin-top:10%; */
+	margin-top:3%;
 }
 
 .txt-desc {
 	font-size: 20px;
 	margin: 50px 50px 50px 50px;
+
+}
+
+.memeligne{
+	display:flex;
+	margin-top:5em;
 }
 
 #divRight {
 	/*background: blue;*/
-	width: 54%;
+	width: 55%;
 	/*height: 1000px;*/
-	top: 0;
 	float: left;
 	padding-left: 20px;
 	margin-left: 	10px;
 }
 
-.logo p{
-	 display: inline-block;
+.logo{
+	 /* display: inline-block; */
+	margin-top:2em;
+	font-size:1.2em;
+	margin-left:20px;
+	float:left;
 }
 
-.logo2{
-	display: inline-block;
+.logo2 p{
 	 padding-right: 10px;
 	 padding-top: 5px;
+	 /* margin-left:-1.75em; */
+	 display:inline-block;
+	 
 }
 
-.Ttdesc {
-	padding-left: 40px;
-}
+
 .logo2 p {
 	 display: inline-block;
 }
 
-.description-pro {
-	font-size: 24px;
-	margin-bottom: 55px;
+.logo2{
+	justify-content:center;
+	text-align:center;
+	align-items:center;
+	margin-left:50px;
+	margin-top:5px;
+}
+
+form{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width:100%;
 }
 
 .imgau {
-	width: 94%;
-	float: right;
+	width: 35em;
+	float: left;
+	/* height:10%; */
+	border-radius:5px;
+	margin-top:7%;
+
 }
 
 .pm-2 {
@@ -79,7 +110,7 @@
 }
 
 .tstr, .asure {
-	display: inline;
+	/* display: inline; */
 }
 
 .tstr {
@@ -89,6 +120,8 @@
 
 .asur {
 	padding-left: 2px;
+	margin-left:-15px;
+	/* display:inline-block; */
 }
 .txtgr, .tentacles {
 	display: inline;
@@ -96,30 +129,24 @@
 .txtgr {
 	font-weight: bold;
 	font-size: 16px;
+	margin-left:5px;
 }
 
 .tentacles {
 	text-align: center;
-	height: 40px;
 	border-radius: 5px;
+	padding: 14px 10px;
+	border: 1px solid;
+
 }
 
-.glbtxtarea {
-  width: 100%;
-  height: auto;
-  margin: auto;
-  margin-top: 50px;
-}
 
-.txtarea {
-  /*background: red;*/
-  border: solid 1px black;
-  width: 94%;
-  height: auto;
-  margin: auto;
-  margin-bottom: 50px;
-  border-radius: 3px;
-  padding: 10px;
+
+
+
+.fa-users{
+	text-align:center;
+	border:2px;
 }
 
 .imgd {
@@ -151,15 +178,9 @@
 
 .soutenir {
 	width: 270px;
-	margin: 0 auto;
+	/* margin: 0 auto; */
 }
-.imgarea {
-	float: left;
-	margin-left: 10px;
-	margin-right: 15px;
-	margin-bottom: 5px;
-	padding: 2px; 
-}
+
 
 .txt-label-infoauteur {
 	text-align:  center;
@@ -174,11 +195,7 @@
   margin: auto;
 }
 
-.traitzebi{
-margin-left: 40px;
-margin-right: 40px;
-border: 1px RGB(219,161,160) solid;
-}
+
 
 .imgarea-2 {
 	float: right;
@@ -193,25 +210,7 @@ border: 1px RGB(219,161,160) solid;
 	height: 15px;
 }
 
-progress {
-    border: 0;
-    border-radius: 20px;
-}
 
-progress::-webkit-progress-bar {
-    border: 0;
-    border-radius: 20px;
-}
-
-progress::-webkit-progress-value {
-    border: 0;
-    border-radius: 20px;
-}
-
-progress::-moz-progress-bar {
-    border: 0;
-    border-radius: 20px;
-}
 
 .styled {
 	height: 42px;
@@ -241,22 +240,91 @@ progress::-moz-progress-bar {
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 
-.contrepartie {
-	margin: auto;
-	border: 1px solid black;
-	border-radius: 3px;
-	width: auto;
+
+
+
+
+.global {
+    
+	display: inline-block;
+	width: 100%;
 	height: auto;
-	margin-bottom: 2px;
-	padding-bottom: 10px;
 }
 
-.oneline {
- width: 200px;
- height: weight;
- border: solid 1px #ccc;
- display: inline-block;
+
+
+
+input[type=submit] {
+    background-color: #51aeed;
+    color: white;
+    padding: 14px 10px;
+    border: 1px solid;
+    cursor: pointer;
+    width: 50%;
+	transition: background-color 150ms ease-in-out 0s, color 100ms ease-in 0s;
+	transition-property: background-color, color;
+    transition-duration: 150ms, 100ms;
+    transition-timing-function: ease-in-out, ease-in;
+    transition-delay: 0s, 0s;
+	/* display: block; */
+	margin : auto;
+	margin-top:15px;
+	/* margin-bottom:10px; */
+	border-radius:10px;
+	display:inline;
+	/* margin-left:5px; */
+	height:3.75em;
+	
 }
+input[type=submit]:hover {
+    opacity: 75%;
+	color:white;
+}
+
+
+.montant-contr {
+	font-size: 22px;
+}
+
+
+
+/* MATTEO */
+
+.Ttdesc {
+	padding-left: 40px;
+}
+
+.traitzebi{
+width: 100%;
+border: 1px RGB(219,161,160) solid;
+}
+
+.glbtxtarea {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.txtarea {
+  /*background: red;*/
+  border: solid 1px black;
+  width: 94%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 50px;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.imgarea {
+	float: left;
+	margin-left: 10px;
+	margin-right: 15px;
+	margin-bottom: 5px;
+	padding: 2px; 
+}
+
  .lbl-contr {
 	text-align: center;
 	color: black;
@@ -264,10 +332,46 @@ progress::-moz-progress-bar {
 	font-size: 20px;
 }
 
+.conteneure {
+	margin: auto;
+	width: 94%;
+	height: auto;
+	margin-bottom: 50px;
+}
+
+.oneline {
+ width: 200px;
+ height: auto;
+ border: solid 1px #ccc;
+ display: inline-block;
+}
+
+.contrepartie {
+	margin: auto;
+	border-radius: 3px;
+	width: auto;
+	height: auto;
+	margin-bottom: 2px;
+	padding-bottom: 10px;
+}
+
+.mtn-contr {
+	margin-top:  25px;
+	margin-left: 15px;
+	font-size: 20px;
+}
+
 .lbl-txt {
 	padding-left: 15px;
 	font-size: 20px;
 }
+
+.sous-texte {
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 13px;
+}
+
 .button {
   background-color: #4CAF50; /* Green */
   border: none;
@@ -292,7 +396,7 @@ progress::-moz-progress-bar {
   color: black; 
   border: 2px solid #51aeed;
   border-radius: 10px;
-  margin-right: 15px;
+  margin-left: 10%;
 }
 
 .button1:hover {
@@ -301,35 +405,127 @@ progress::-moz-progress-bar {
   transition: 0.5s;
 }
 
-.conteneure {
-	margin: auto;
-	width: 94%;
-	height: auto;
-	margin-bottom: 50px;
-}
-
-.mtn-contr {
-	margin-top:  25px;
-	margin-left: 15px;
-	font-size: 20px;
-}
-
-.sous-texte {
-	padding-left: 15px;
-	padding-right: 15px;
-	font-size: 13px;
-}
-
 .ELLEESTGLOBAL {
 	width: 1170px;
 	margin: auto;
 }
 
-.GrandTitreTexte {
-	text-align: center;
-	font-size: 35px;
+
+.hero{
+	width:100%;
+	height:450px;
+	position:relative;
+	margin:100px auto;
+	overflow:hidden;
 }
 
-.GrandTitre {
-	margin-bottom: 40px;
+.btn-box{
+	display:flex;
+	border-bottom:1px solid #ccc;
+}
+
+.btn-box button{
+	background:transparent;
+	border:none;
+	outline:none;
+	cursor:pointer;
+	padding:14px 16px;
+	margin-right:50px;
+	font-size:20px;
+	font-weight:bold;
+}
+
+.btn-box .fas{
+	margin-right:20px;
+	
+}
+
+.btn-box button:hover .fas{
+	color: #51aeed;
+}
+
+.content-right img{
+	width:350px;
+	/* margin-top:30px; */
+
+}
+
+.content{
+	display:flex;
+	justify-content:center;
+	/* text-align:center; */
+	/* align-items:center; */
+	margin:7% auto;
+	position:absolute;
+	transform:translateX(100%);
+	transition:0.3s;
+	width:100%;
+}
+
+.content-left{
+	flex-basis:50%;
+	margin-top:-20px;
+}
+
+.content-left p{
+	font-size:13px;
+	padding:30px 0;
+	
+}
+
+.content-left a{
+	width:150px;
+	display:block;
+	padding:8px 5px;
+	border-radius:20px;
+	text-decoration:none;
+	background-color:#51aeed;
+	color:#fff;
+	text-align:center;
+}
+
+.content-right{
+	flex-basis:50%;
+	text-align:center;
+	/* float:right */
+}
+
+#content1{
+	transform:translateX(0px);
+
+}
+
+#btn1{
+	color: #51aeed;
+}
+
+.square{
+	height:17em;
+	width:18em;
+	border:solid 1px #ccc ;
+	border-radius:3px;
+	/* background-color:linen; */
+	margin-right:10px;
+	padding: 15px;
+
+}
+
+.square h2{
+	margin-bottom:25px;
+	/* font-weight:500; */
+}
+
+.square .button1{
+	margin:auto;
+	margin-top:15px;
+}
+
+.square h5{
+	font-weight:100;
+}
+
+.squareglo{
+	display: flex;
+	flex-direction: row;
+	/* width:100%; */
 }

@@ -1,34 +1,44 @@
 body {
   background-color: #EFEFEF;
 }
-.button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
+.boutton {
+    background-color: rgb(24, 165, 214);
+    color: white;
+    /* padding: 14px 10px; */
+    border: 1px solid;
+    cursor: pointer;
+    width: 15%;
+	transition: background-color 150ms ease-in-out 0s, color 100ms ease-in 0s;
+	transition-property: background-color, color;
+    transition-duration: 150ms, 100ms;
+    transition-timing-function: ease-in-out, ease-in;
+    transition-delay: 0s, 0s;
+	/* display: block; */
+	/* margin : auto; */
+	margin-top:-60px;
+	/* margin-bottom:10px; */
+	border-radius:5px;
+	display:inline;
+	/* margin-left:50px; */
+	/* margin-right:auto; */
+	height:3.75em;
   cursor: pointer;
+ 
+}
+
+
+
+.boutton:hover {
+    background-color: rgb(24, 110, 214);
+	color:white;
 }
 
 #ouais {
   color: #51aeed;
 }
-.button1 {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #51aeed;
-  border-radius: 10px;
-}
 
-.button1:hover {
-  background-color: #51aeed;
-  color: white;
-}
+
+
 
 .navbbar {
   overflow: hidden;

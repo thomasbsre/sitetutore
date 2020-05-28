@@ -45,7 +45,7 @@ padding-top:30px;
 	
     width:600px;
 	margin:auto;
-	margin-top:100px;
+	margin-top:50px;
 	margin-bottom:100px;
 }
 /* Bordered form */
@@ -65,7 +65,7 @@ form a{
 }
 
 #sc{
-	color:blue;
+	color:#51aeed;
 	text-decoration:underline;
 }
 
@@ -88,6 +88,7 @@ input[type=text], input[type=password] {
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+	border-radius:5px;
 }
 
 input[type=email], input[type=password] {
@@ -97,11 +98,13 @@ input[type=email], input[type=password] {
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+	border-radius:5px;
+	
 }
 
 /* Set a style for all buttons */
 input[type=submit] {
-    background-color: rgb(24, 165, 214);
+    background-color: #51aeed;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -122,10 +125,9 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: rgb(24, 110, 214);
+    opacity:75%;
 	color:white;
-    /* color: white; */
-    /* border: 1px solid #51aeed; */
+
 }
 
 .g-recaptcha{
